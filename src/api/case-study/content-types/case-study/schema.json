@@ -52,6 +52,20 @@
       "relation": "manyToMany",
       "target": "api::case-study-category.case-study-category",
       "mappedBy": "case_studies"
+    },
+    "author": {
+      "type": "string"
+    },
+    "avtar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

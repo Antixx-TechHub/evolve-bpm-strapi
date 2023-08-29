@@ -36,11 +36,29 @@
       "component": "shared.seo"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "avtar": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
