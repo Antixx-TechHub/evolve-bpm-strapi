@@ -17,11 +17,11 @@
       "required": true
     },
     "shortDesc": {
-      "type": "string"
+      "type": "text"
     },
     "btnText": {
       "type": "string",
-      "default": "Read More"
+      "default": "Continue Reading →"
     },
     "image": {
       "type": "media",
