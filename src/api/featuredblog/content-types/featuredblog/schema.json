@@ -16,7 +16,7 @@
       "type": "string"
     },
     "shortDesc": {
-      "type": "string"
+      "type": "text"
     },
     "date": {
       "type": "date"
@@ -25,12 +25,13 @@
       "type": "richtext"
     },
     "btnText": {
-      "type": "string"
+      "type": "string",
+      "default": "Continue Reading →"
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos",

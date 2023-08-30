@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_listings",
+  "info": {
+    "singularName": "job-listing",
+    "pluralName": "job-listings",
+    "displayName": "Job Listing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "shortText": {
+      "type": "text"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Continue Reading →"
+    },
+    "JobPosition": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "JobStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Deactive"
+      ]
+    },
+    "detailsText": {
+      "type": "richtext"
+    },
+    "Experience": {
+      "type": "decimal"
+    },
+    "EmploymentType": {
+      "type": "enumeration",
+      "enum": [
+        "Part-Time",
+        "Full-Time"
+      ]
+    },
+    "WorkMode": {
+      "type": "enumeration",
+      "enum": [
+        "Remote",
+        "Office",
+        "On-Site"
+      ]
+    },
+    "RoleCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Director / Sr. Director (Customer Success)",
+        "Executive / Sr. Executive (Appointment Generation)",
+        "Executive / Sr. Executive (Email Marketing)",
+        "Manager / Sr. Manager (Email Marketing)",
+        "Executive / Sr. Executive (MIS)",
+        "Executive / Sr. Executive (Finance)",
+        "Director / Sr. Director (Finance)",
+        "Executive / Sr. Executive (MIS & Delivery)",
+        "Business Development Managers (Inside Sales)",
+        "Director / Sr. Director (Inside Sales)"
+      ]
+    }
+  }
+}

@@ -19,18 +19,19 @@
       "type": "date"
     },
     "shortDesc": {
-      "type": "string"
+      "type": "text"
     },
     "longDesc": {
       "type": "richtext"
     },
     "btnText": {
-      "type": "string"
+      "type": "string",
+      "default": "Continue Reading →"
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -57,15 +58,15 @@
       "type": "string"
     },
     "avtar": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }
