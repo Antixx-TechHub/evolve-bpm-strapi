@@ -69,6 +69,10 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Continue Reading →"
     }
   }
 }
