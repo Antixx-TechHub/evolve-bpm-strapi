@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "featuredblogs",
+  "collectionName": "ebooks",
   "info": {
-    "singularName": "featuredblog",
-    "pluralName": "featuredblogs",
-    "displayName": "Featured Blog",
+    "singularName": "ebook",
+    "pluralName": "ebooks",
+    "displayName": "Ebook",
     "description": ""
   },
   "options": {
@@ -34,20 +34,20 @@
       "required": true,
       "allowedTypes": [
         "images",
+        "files",
         "videos",
-        "audios",
-        "files"
+        "audios"
       ]
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
-    "featured_blog_categories": {
+    "ebook_categories": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::featured-blog-category.featured-blog-category",
-      "mappedBy": "featured_blogs"
+      "target": "api::ebook-category.ebook-category",
+      "mappedBy": "ebooks"
     },
     "seo": {
       "type": "component",

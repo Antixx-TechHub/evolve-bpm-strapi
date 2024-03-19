@@ -58,15 +58,12 @@
       "type": "string"
     },
     "avtar": {
+      "allowedTypes": [
+        "images"
+      ],
       "type": "media",
       "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "required": true
     }
   }
 }

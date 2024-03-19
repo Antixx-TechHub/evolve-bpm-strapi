@@ -4,7 +4,8 @@
   "info": {
     "singularName": "customerreview",
     "pluralName": "customerreviews",
-    "displayName": "Customer Review"
+    "displayName": "Customer Review",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

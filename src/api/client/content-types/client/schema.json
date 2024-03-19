@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "partners",
+  "collectionName": "clients",
   "info": {
-    "singularName": "partner",
-    "pluralName": "partners",
-    "displayName": "Partner",
-    "description": ""
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +12,6 @@
   "pluginOptions": {},
   "attributes": {
     "partnerSlides": {
-      "displayName": "partnerSlides",
       "type": "component",
       "repeatable": true,
       "component": "partner-images.partner-slides"

@@ -4,8 +4,7 @@
   "info": {
     "singularName": "job-listing",
     "pluralName": "job-listings",
-    "displayName": "Job Listing",
-    "description": ""
+    "displayName": "Job Listing"
   },
   "options": {
     "draftAndPublish": true
@@ -43,7 +42,7 @@
       "type": "richtext"
     },
     "Experience": {
-      "type": "decimal"
+      "type": "integer"
     },
     "EmploymentType": {
       "type": "enumeration",
@@ -63,16 +62,9 @@
     "RoleCategory": {
       "type": "enumeration",
       "enum": [
-        "Director / Sr. Director (Customer Success)",
-        "Executive / Sr. Executive (Appointment Generation)",
-        "Executive / Sr. Executive (Email Marketing)",
-        "Manager / Sr. Manager (Email Marketing)",
-        "Executive / Sr. Executive (MIS)",
-        "Executive / Sr. Executive (Finance)",
-        "Director / Sr. Director (Finance)",
-        "Executive / Sr. Executive (MIS & Delivery)",
-        "Business Development Managers (Inside Sales)",
-        "Director / Sr. Director (Inside Sales)"
+        "Software Developer",
+        "Graphics Design",
+        "Digital Marketing"
       ]
     }
   }

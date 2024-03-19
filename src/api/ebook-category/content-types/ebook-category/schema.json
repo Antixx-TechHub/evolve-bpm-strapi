@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "featuredcategories",
+  "collectionName": "ebook_categories",
   "info": {
-    "singularName": "featuredcategory",
-    "pluralName": "featuredcategories",
-    "displayName": "Featured Category",
-    "description": ""
+    "singularName": "ebook-category",
+    "pluralName": "ebook-categories",
+    "displayName": "Ebook Category"
   },
   "options": {
     "draftAndPublish": true
@@ -19,11 +18,11 @@
       "type": "uid",
       "targetField": "name"
     },
-    "featured_blogs": {
+    "ebooks": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::featuredblog.featuredblog",
-      "inversedBy": "featured_categories"
+      "target": "api::ebook.ebook",
+      "inversedBy": "ebook_categories"
     }
   }
 }
